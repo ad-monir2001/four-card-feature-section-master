@@ -19,7 +19,7 @@
 }
 
 h2{
-    font-size: 25px;
+    font-size: 1.4rem;
     color: var(--Very-Dark-Blue);
     
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 1rem;
   color: var(--Grayish-Blue);
   font-weight: 400;
 }
@@ -48,6 +48,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
     width: 80%;
     max-width: 1440px;
     margin: 0 auto;
@@ -55,7 +56,6 @@ p {
 
 .card__container-1{
     width: 350px;
-    margin-right: 1rem;
     border-top: 4px solid var(--Cyan);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
     border-radius: 5px;
@@ -63,7 +63,6 @@ p {
 }
 .card__container-2__sub1{
     width: 350px;
-    margin-right: 1rem;
     margin-bottom: 1rem;
     border-top: 4px solid var(--Red);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
@@ -72,7 +71,6 @@ p {
 }
 .card__container-2__sub2{
     width: 350px;
-    margin-right: 1rem;
     margin-bottom: 1rem;
     border-top: 4px solid var(--Orange);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
@@ -81,7 +79,6 @@ p {
 }
 .card__container-3{
     width: 350px;
-    margin-right: 1rem;
     margin-bottom: 1rem;
     border-top: 4px solid var(--Blue);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
@@ -90,6 +87,27 @@ p {
 }
 
 .icons{
-    width: 45px;
-    margin: 1rem;
+    width: 48px;
+}
+
+.icon{
+  text-align: right;
+  margin: 2rem 0 0;
+}
+
+@media screen and (max-width: 375px){
+  .sologan {
+    width: 375px;
+    padding: 4rem 1.5rem;
+  }
+  .card__container{
+    display: inline;
+  }
+
+  .card__container-1,
+  .card__container-2__sub1,
+  .card__container-2__sub2,
+  .card__container-3{
+    margin: 2rem auto;
+  }
 }
