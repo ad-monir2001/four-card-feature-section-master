@@ -80,6 +80,7 @@ p {
 .card__container-3{
     width: 350px;
     margin-bottom: 1rem;
+    background-color: white;
     border-top: 4px solid var(--Blue);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
     border-radius: 5px;
