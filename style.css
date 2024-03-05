@@ -63,7 +63,7 @@ p {
 }
 .card__container-2__sub1{
     width: 350px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-top: 4px solid var(--Red);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
     border-radius: 5px;
@@ -71,7 +71,6 @@ p {
 }
 .card__container-2__sub2{
     width: 350px;
-    margin-bottom: 1rem;
     border-top: 4px solid var(--Orange);
     box-shadow: -2px 2px 15px  rgb(168, 168, 168);
     border-radius: 5px;
